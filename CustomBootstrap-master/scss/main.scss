@@ -1,0 +1,102 @@
+html
+  height: 100%
+  width: 100%
+  background-image: url(/CustomBootstrap-master/img/background.jpg)
+  background-repeat: no-repeat
+  background-size: cover
+  background-attachment: fixed
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/CustomBootstrap-master/img/background.jpg',sizingMethod='scale')
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/CustomBootstrap-master/img/background.jpg',sizingMethod='scale')"
+
+header
+  width: 62.5em
+
+body
+  margin: 0 auto
+  padding: 0
+  width: 62.5em
+  font-family: Verdana, sans-serif
+  display: flex
+  flex-wrap: wrap
+
+#nav
+  width: 750px
+  margin: 0 auto
+  list-style: none
+  li
+    float: left
+  a
+    display: block
+    text-align: center
+    width: 150px
+    text-decoration: none
+    color: #FFFFFF
+  img
+    width: inherit
+    align-content: center
+
+h1
+  color: #FFFFFF
+  font-size: 22px
+  text-align: center
+
+h2
+  text-align: center
+
+h3
+  text-align: center
+  font-size: 22px
+
+#article
+  width: 750px
+  margin: 0 auto
+  list-style: none
+
+main, aside, footer
+  padding: 1em
+  box-sizing: border-box
+
+main
+  width: 46.875em
+  div
+    h1
+      color: #ffff00
+    p
+      margin-bottom: auto
+      margin-top: auto
+    figure
+      float: right
+      margin: 0
+      padding: 0 1em
+      img
+        -webkit-border-radius: 8px
+        -moz-border-radius: 8px
+        -ms-border-radius: 8px
+        border-radius: 8px
+      figcaption
+        text-align: center
+    background-color: #FFFFFF
+
+.kit
+  margin-top: 10px
+  margin-left: 23px
+  border: 1px solid #FFFFFF
+
+aside
+  width: 15.625em
+  margin: 1em 0
+  div
+    margin-bottom: 5px
+    background-color: #2980B9
+    color: #FFFFFF
+    h2, h3
+      color: #FFFFFF
+  img
+    width: 13.65em
+    height: 14em
+
+footer
+  width: 62.5em
+  text-align: left
+  margin-left: 20em
+  color: #FFFFFF

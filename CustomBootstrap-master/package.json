@@ -1,0 +1,26 @@
+{
+  "name": "custombootstrap",
+  "version": "1.0.0",
+  "description": "testing",
+  "main": "index.js",
+  "scripts": {
+      "watch-css": "node-sass -w node_modules/bootstrap/scss -o css/bootstrap",
+      "build-css": "node-sass node_modules/bootstrap/scss -o css/bootstrap"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilkkamtk/CustomBootstrap.git"
+  },
+  "author": "Ile",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilkkamtk/CustomBootstrap/issues"
+  },
+  "homepage": "https://github.com/ilkkamtk/CustomBootstrap#readme",
+  "devDependencies": {
+    "node-sass": "^4.4.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-alpha.6"
+  }
+}
